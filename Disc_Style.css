@@ -1,0 +1,551 @@
+
+body {
+    background-image: url(/Img/4436021_93202.svg);
+    background-size: cover;
+    display: grid;
+    grid-template: 15% 1fr 1fr / 1fr ;
+    background-color: #1a1f8175;
+    backdrop-filter: blur(10px);
+    height: 4000px;
+    width: 99.4%;
+    }
+
+header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    background-color: #1a1f8175;
+    
+}
+
+.Up_nav {
+    display: grid;
+    grid-template:1/20% 70% 10%;
+    height: 60px;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+   
+}
+
+.ListaNav{
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    grid-column: 2;
+    align-items: center;
+}   
+
+@font-face 
+{
+    font-family: Ginto;
+    src: url(/Fonts/ABCGintoNordCondensed-Bold-Trial-BF651b7b7729958.otf);
+}
+
+@font-face 
+{
+    font-family: firstfont;
+    src: url(/Fonts/gg\ sans\ Medium.woff);
+}
+
+.ListEl {
+ color: white;
+ display: flex;
+ font-family: firstfont;
+ margin-left: 10%;
+ margin-right: 10%;
+ font-size: small;
+ font-weight: bold;
+}
+
+.Boton_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3;
+    font-family: firstfont;
+    font-size: smaller;
+    font-weight: bolder;
+    align-self: center;
+    width: 65px; height: 38px;
+    border-radius: 40px;
+    border-color: rgba(240, 248, 255, 0);
+    margin-right: 15%;
+}
+
+.Loguito {
+    display: flex;
+    grid-column: 1;
+    justify-self: start;
+    align-self: center;
+    height: 34px;
+    margin-left: 15%;
+}
+
+#Img_Log{
+    display: flex; 
+    justify-content: left;
+}
+
+.contprin {
+    display: grid;
+    grid-template: 92% 8%/100%;
+    
+}
+
+.cont1{
+    display: grid;
+    grid-template: 100%/45% 55%;  
+    grid-row: 1;
+}
+
+.buttoncont1{
+   display: grid;
+   grid-template: 1fr/1fr;
+}
+
+.buttoncont2{
+    display: grid;
+    grid-template: 1fr/50% 50%;
+}
+.Wdown {
+    display: flex;
+    justify-self: right;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    border-radius: 28px;
+    grid-column: 1;
+    border-color: rgba(240, 248, 255, 0);
+    margin-right: 5%;
+}
+.Wopen{
+    font-family: firstfont;
+    display: flex;
+    justify-self: left;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    border-radius: 28px;
+    grid-column: 2;
+    border-color: rgba(240, 248, 255, 0);
+    margin-left: 5%;
+    background-color: #1624bb;
+    color: white;
+    
+}
+
+.pcord{
+    display: flex;
+    width: 70%;
+    height: 75%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 25%;
+    grid-row: 1;
+    grid-column: 2;
+    align-items: center;
+}
+
+.pcmobile{
+    display: flex;
+    width: 98%;
+    height: 85%;
+    
+}   
+
+.bigfont{
+    font-family: Ginto;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -.03em;
+    color: white;
+    font-size: 4rem;
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+
+.smallfont{
+    font-family: firstfont;
+    color: white;
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content:flex-start;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    font-weight: normal;
+    font-size: 1.5rem;
+    letter-spacing: -.03em;
+    line-height: 100%;
+}
+
+.cont1text{
+    grid-row: 1;
+    grid-column: 1;
+    display: grid;
+    grid-template: 50% 50%/100%;
+}
+
+.princhat{
+    display: grid;
+    grid-template:20% 80%/1fr ;
+    justify-self: center;
+    width: 83%;
+    height: 825px;
+    margin-top: 5%;
+}
+
+.WumpuPic {
+    display: flex;
+    grid-row: 1;
+    position: absolute;
+    justify-self: right;
+    height: 3%;
+    margin-right: 3%;
+    margin-top: 8%;
+}
+
+.contchat{ 
+    display: flex;
+    display: grid;
+    grid-template: 100% / 60% 40%;
+    background-color: #6e8bfe70;
+    backdrop-filter: blur(60px);
+    border: 3px solid rgba(255, 255, 255, 0.54);
+    border-radius: 40px;
+    width: 100%;
+    height: 530px;
+    justify-self: center;
+    align-self: center;
+    grid-row: 2;
+}
+
+.chatbox{
+    display: flex;  
+    grid-column: 1;
+    background-image: url(/Img/fontchatbox.png);
+    width: 58%;
+    height: 96%;
+    align-self: center;
+    margin-left: 1%;
+    border-radius: 40px;
+    position: absolute;
+    z-index: -1;
+}
+
+.chad {
+    display: flex;      
+    align-self: center;
+    height: 110%;
+    width: 60%;
+    z-index: 2;
+    
+}
+
+#Textcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#BigT{
+    display: flex;
+    justify-content: left;
+    grid-column: 2;
+    height: 25%;
+    font-family: Ginto;
+    color: white;
+    font-size: 2.80rem;
+    font-weight: 800;
+    justify-self: center;
+    letter-spacing: -.03em;
+    line-height: 100%;
+    margin-left: 8%;
+    margin-bottom: 1%;
+}
+
+#SmallT{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    grid-column: 2;
+    font-family: firstfont;
+    color: white;
+    letter-spacing: .03em;
+    font-size: 1.125rem;
+    font-weight: lighter;
+    letter-spacing: .02rem;
+    font-weight: 400;
+    margin-left: 8%;
+
+}
+
+.Actcont{
+    display: grid;
+    grid-template:20% 80%/1fr ;
+    justify-self: center;
+    width: 83%;
+    height: 825px;
+    margin-top: 1%;
+}
+
+.Actbox {
+    display: grid;
+    grid-template: 100% / 60% 40%;
+    background-color: #6e8bfe70;
+    backdrop-filter: blur(60px);
+    border: 3px solid rgba(255, 255, 255, 0.54);
+    border-radius: 40px;
+    width: 100%;
+    height: 600px;
+    justify-self: center;
+    align-self: center;
+    grid-row: 2;
+
+}
+
+
+.Actbckgrnd{ 
+    display: flex;  
+    grid-column: 1;
+    background-image: url(/Img/Actbackgroundpic.png);
+    width: 58%;
+    height: 96%;
+    align-self: center;
+    margin-left: 1%;
+    border-radius: 40px;
+    position: absolute;
+    z-index: -1;
+}
+
+.Actpic {
+    display: flex;  
+    justify-self: left;
+    align-self: center;
+    height: 120%;
+    width: 80%;
+    z-index: 1;
+
+}
+
+#ActText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ActBigT{  
+    display: flex;
+    justify-content: left;
+    grid-column: 2;
+    height: 25%;
+    font-family: Ginto;
+    color: white;
+    font-size: 2.80rem;
+    font-weight: 800;
+    justify-self: center;
+    letter-spacing: -.03em;
+    line-height: 100%;
+    margin-left: 8%;
+}
+
+#ActSmallT {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    grid-column: 2;
+    font-family: firstfont;
+    color: white;
+    letter-spacing: .03em;
+    font-size: 1.125rem;
+    font-weight: lighter;
+    letter-spacing: .02rem;
+    font-weight: 400;
+    margin-left: 8%;
+}
+
+.GuysPic{
+    display: flex;
+    grid-row: 1;
+    position: absolute;
+    justify-self: right;
+    height: 4.7%;
+    margin-top: 0.6%; 
+
+}
+.WomanPic{
+    display: flex;
+    grid-row: 1;
+    position: absolute;
+    justify-self: center;
+    height: 4.7%;
+    margin-left: 20%;
+    margin-top: 2.3%; 
+    z-index: 1;
+
+}
+
+.Footerline {
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.308), rgba(255, 255, 255, .04));
+    min-height: 5px;
+    position: absolute;
+    z-index: 8;
+    width: 100%;
+    bottom: 17.85%;
+
+}
+
+footer {
+    z-index: 5;
+    backdrop-filter: blur(100px);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .3), rgba(255, 255, 255, .05)), linear-gradient(261deg, #2e1a8e, #0e0e5c);
+    padding-top: 80px;
+    padding-bottom: 64px;
+    position: relative;
+    height: 570px;
+    display: grid;
+    grid-template: 80% 20%/ 25% 1fr 1fr 1fr 1fr;
+}
+
+.BottomImg{
+    display: flex;
+    justify-self: center;
+    width: 60%;
+}
+
+.Lenguage{
+    display: flex;
+    grid-column: 1;
+    width: 100%;
+    display: grid;
+    grid-template: 30% 70%/1fr; 
+}
+
+.LengFlag {
+    display: flex;
+    grid-column: 1;
+    margin-left: 30%;
+    margin-top: 10%;
+    height: 18px;
+    color: white;  
+    grid-row: 1;
+}
+
+.LengText {
+    align-self: center;
+    margin-left: 20px;
+    font-family: firstfont;
+}
+
+.ProductL {
+    list-style-type: none;
+    color: white;
+    font-family: firstfont;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+}
+.MediaIcons {
+    grid-row: 2;
+    display: flex;
+    justify-self: right;
+    height: 6%;
+    justify-content: space-between;
+    width: 60%;
+    margin-right: 10%;
+}
+#Arrow{
+    align-self: center;
+    margin-left: 5px;
+}
+
+.CompanyL {
+    color: white;
+    list-style-type: none;
+    grid-column: 3;
+    grid-row: 1;
+    font-family: firstfont;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: left;
+    line-height: 1rem;
+    width: 50%;
+}
+
+.ResourcesL {
+    font-family: firstfont;
+    color: white;
+    list-style: none;
+    grid-row: 1;
+    grid-column: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: left;
+    line-height: 1rem; 
+    width: 75%;
+}
+
+.PoliciesL{
+    font-family: firstfont;
+    color: white;
+    list-style: none;
+    grid-row: 1;
+    grid-column: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: left;
+    line-height: 1rem; 
+    margin-right: 20%;
+}
+
+.LastL {   
+    margin-top: 5%;
+    background-color: white;
+    width: 90%;
+    height: 1px;
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin-left: 5%;
+}
+
+.XLink {
+    display: flex;
+    height: 100%;
+}
+.InstaLink{
+    display: flex;
+    height: 100%;
+}
+.FaceLink{
+    display: flex;
+    height: 100%;
+}
+.YTLink {
+    display: flex;
+    height: 100%;
+}
+.TikTokLink{
+    display: flex;
+    height: 100%;
+}
+
+

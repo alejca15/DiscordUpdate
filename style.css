@@ -1,0 +1,55 @@
+.Titulazo {
+text-align: center; 
+
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 250, 115);
+}
+.PizzaGate {
+    background-color: rgb(243, 180, 85);
+    float: left;
+    width: 30%; height: 8cm;
+    text-align: center;
+    padding-top: 1cm;
+
+}
+.PizzaGate > a {
+    text-align: center;
+    padding-top: 1cm;
+}
+.Mostazamieo {
+    background-color: rgb(238, 228, 94);
+    width: 30%; height: 8cm;
+    float: left;
+    text-align: center;
+    padding-top: 1cm;
+}
+
+.Poshito{
+    width: 30%;
+    background-color: rgb(240, 241, 127);
+    text-align: center;
+    float: left;
+    height: 8cm;
+    padding-top: 1cm;
+    
+}
+body {
+    background-color: rgb(252, 247, 175);
+
+}
+.Patita {
+    display: grid;
+    align-self: center;
+    text-align: center;
+    height: 1cm;
+    background-color: rgb(245, 221, 115);
+}
+#Registro {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
